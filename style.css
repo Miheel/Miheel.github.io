@@ -1,0 +1,44 @@
+body {
+	font-family: 'Hind', sans-serif;
+	color: white;
+	background: black;
+	overflow: hidden;
+}
+
+#frame, #result {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#timecount {
+	font-size: 60pt;
+	opacity: 1;
+	transition: opacity 2s;
+}
+
+#result {
+	font-size: 300pt;
+	opacity: 0;
+	transition: opacity 2s;
+	transition-delay: 2s;
+}
+
+#finished {
+	opacity: 1;
+	transition: opacity 2s;
+	transition-delay: 3.5s;
+}
+
+#yearupt {
+	opacity: 0;
+	transition: opacity 2s;
+	transition-delay: 3s;
+}
+
+#newyear {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
